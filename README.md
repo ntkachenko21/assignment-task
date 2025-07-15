@@ -189,7 +189,7 @@ class Product(models.Model):
 - **Fields:**
   - `title`: Product name, max length 255, required.
   - `description`: Optional text description.
-  - `price`: Decimal, up to 9999.99.
+  - `price`: Decimal, up to 999999.99.
   - `created_at` / `updated_at`: Auto timestamps for creation/update.
   - `image`: Optional image field for product photo.
   - `stock`: Positive integer, current stock.
