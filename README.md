@@ -77,18 +77,28 @@ Special attention was paid to code structure, validation, migrations, and API do
 ## Project Structure
 
 ```
-assignment-task/
-├── assignment/              # Django project settings
-│   └── settings.py
-├── products/                # Product app (models, views, serializers, urls)
+ecommerce-assignment-task/
+├── ecommerce/                # Django project settings
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── product/                  # Product app (models, views, serializers, etc.)
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── filters.py
 │   ├── models.py
 │   ├── serializers.py
-│   ├── views.py
+│   ├── tests.py
 │   ├── urls.py
-│   └── admin.py
+│   └── views.py
+├── db.sqlite3
 ├── manage.py
 ├── requirements.txt
-└── ...
+└── .gitignore
 ```
 
 - **models.py**: Defines Product and Category models.
