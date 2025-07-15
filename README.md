@@ -1,6 +1,10 @@
-# Assignment Task – E-commerce Product API (Django Rest)
+# Test Assignment for Hustlr Staffing Services – E-commerce Product API (Django Rest)
 
+> **(Requirements) Time Limit: Spend no more than 1 hour**
+> 
 > **Time spent on this project: 1 hour (real hands-on coding and setup, not an estimate).**
+
+
 
 ---
 
